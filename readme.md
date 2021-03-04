@@ -16,8 +16,8 @@ python find_similar.py -image=<path_to_image> -dataset=<path_to_data> -threshold
 python find_similar.py -image=<path_to_image> -dataset=<path_to_data> -isSave -save_path=<path_to_save_dir> -threshold=5
 ```
  - `threshold = 5` is a good start, smaller threshold means stricter threshold.
- - `dataset` should be `0-normal` etc., not `dataset/`.
+ - `dataset` should be `0-normal` etc., not the whole dataset.
 
 ### Algorithm
-Imagehash is used for a fast transformation and comparision.
+`Imagehash` is used for a fast transformation and comparision.
 
